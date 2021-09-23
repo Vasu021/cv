@@ -1,0 +1,79 @@
+body{
+    background-color: bisque;
+    animation: an2 3s;
+}
+
+@keyframes an1 {
+    from {background-color: black;color: white;}
+    to {background-color: white;box-shadow: 5px 10px;}
+}
+
+@keyframes an2 {
+    from {background-color: white;}
+    to {background-color: bisque;}
+}
+
+
+
+.body-div{
+    animation: an1 3s;
+    background-color: white;
+    width:800px;
+    border: 2px solid; 
+    border-radius: 5px;
+    box-shadow: 5px 10px;
+    padding:50px 50px 50px 50px;
+    margin:auto;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+/*
+.name:hover{
+    background-color: yellowgreen;
+}
+*/
+.name-under{
+    border-top: solid 1px black;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 1px;
+    width: 5%;
+    margin: auto;
+    transition: 1s;
+}
+
+
+.name{
+    margin-bottom: 0px;
+}
+.name:hover + .name-under{
+    border-top: solid 2px black;
+    background-image: url("amlendu.png");
+    background-size: cover;
+    width: 31%;
+    height: 300px;
+}
+
+
+
+.tone{
+    border: 1px solid ;
+}
+
+
+.headings{
+    text-align:left;
+    font-weight:bold;
+    text-decoration:underline;
+    transition: 1s;
+}
+
+.headings:hover{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.links{
+    text-decoration: none;
+    color: blueviolet;
+}
